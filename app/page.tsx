@@ -1,15 +1,15 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import About from "../sections/about";
+import CardFeatures from "../sections/cardfeatures";
+import Contact from "../sections/contact";
+import Main from "../sections/main";
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default async function Page() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-            contigoasia.com
-              </div>
-    </main>
-  )
+    <>
+      <Main />
+      <CardFeatures />
+      <About />
+      <Contact />
+    </>
+  );
 }

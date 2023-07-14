@@ -1,0 +1,16 @@
+.image {
+    @apply h-32 w-auto h-80;
+}
+
+.description {
+    @apply text-white mx-8 text-justify text-2xl;
+}
+
+.name {
+    @apply text-white text-5xl font-samarkan;
+    text-align: center;
+}
+
+.title {
+    @apply text-white text-2xl;
+}
