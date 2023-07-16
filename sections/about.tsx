@@ -2,6 +2,7 @@ import Image from "next/image";
 import marc_image from "../public/images/marc.jpg";
 import raul_image from "../public/images/raul.jpg";
 import styles from "./about.module.css";
+import background from "../public/images/image2.jpg";
 
 const People = [
     {
@@ -19,8 +20,11 @@ const People = [
 ];
 export default function About() {
     return (
-        <section id="about" className="bg-image2 bg-cover p-16">
-            <div className="rounded-xl bg-slate-900/60 p-16">
+        <section id="about" className="relative p-16">
+            <Image alt="background" src={background} fill={true} style={{
+                objectFit: "cover"
+            }} />
+            <div className="relative z-10 rounded-xl bg-slate-900/60 p-16">
                 <h2 className="text-center font-samarkan text-7xl text-white">About</h2>
                 <div className="flex h-full flex-col justify-around gap-y-16 lg:flex-row">
                     {People.map((person, idx) => (
