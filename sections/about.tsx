@@ -2,7 +2,7 @@ import Image from "next/image";
 import marc_image from "../public/images/marc.jpg";
 import raul_image from "../public/images/raul.jpg";
 import styles from "./about.module.css";
-import background from "../public/images/image2.jpg";
+import background from "../public/images/image3.jpeg";
 
 const People = [
     {

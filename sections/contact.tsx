@@ -1,5 +1,5 @@
 import Image from "next/image";
-import background from "../public/images/image4.jpg";
+import background from "../public/images/image4.jpeg";
 export default function Contact() {
     return (
         <section id="contact" className="relative p-24 ">

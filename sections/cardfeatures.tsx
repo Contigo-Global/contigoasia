@@ -1,6 +1,6 @@
 import Image from "next/image";
 import card from "../public/card.svg";
-import background from "../public/images/image3.jpg";
+import background from "../public/images/image2.jpeg";
 export default function CardFeatures() {
     return (
         <section id="features" className="relative">
@@ -8,7 +8,7 @@ export default function CardFeatures() {
                 objectFit: "cover"
             }} />
             <div className="relative flex h-screen flex-col items-center justify-between p-32 xl:h-auto xl:flex-row">
-                <div className="relative z-10 w-fit rounded-xl bg-yellow-900/30 p-8">
+                <div className="relative z-10 w-fit rounded-xl bg-slate-900/30 p-8">
                     <h2 className="font-samarkan text-7xl text-white">Card Features</h2>
                     <ul className="text-4xl text-white">
                         <li>No Fees</li>

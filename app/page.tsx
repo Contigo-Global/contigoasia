@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contigo Asia",
   description: "Contigo - Debit Card and Remittances for the Unbanned",
+  viewport: ""
 };
 
 export default async function Page() {

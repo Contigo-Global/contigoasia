@@ -25,13 +25,6 @@ module.exports = {
       fontFamily: {
         samarkan: ['var(--font-samarkan)']
       },
-      backgroundImage: {
-        'image1': "url('/images/image1.jpg')",
-        'image2': "url('/images/image2.jpg')",
-        'image3': "url('/images/image3.jpg')",
-        'image4': "url('/images/image4.jpg')",
-
-      }
     },
   },
   plugins: [],

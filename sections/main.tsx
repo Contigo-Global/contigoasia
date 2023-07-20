@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logoHorizontal from "../public/logo_horizontal.svg";
-import background from "../public/images/image1.jpg";
+import background from "../public/images/image1.jpeg";
 export default function Main() {
     return (
         <section id="main" className="relative">
